@@ -51,7 +51,7 @@ public class PlayerStatus : MonoBehaviour
             life--;
             uiChanged?.Invoke(1, life);
 
-            if (life < 0)
+            if (life <= 0)
                 Destroy(this.gameObject);
             else
             {

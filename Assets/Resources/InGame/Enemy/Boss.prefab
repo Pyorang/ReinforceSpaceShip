@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6809290591255300471}
   - component: {fileID: 1010665080661518615}
   - component: {fileID: 5032957215514150338}
+  - component: {fileID: 7431321131820314260}
   - component: {fileID: 4173939933971544731}
   m_Layer: 0
   m_Name: Boss
@@ -20,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6711917679709993704
 Transform:
   m_ObjectHideFlags: 0
@@ -180,7 +181,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5469156fad19aa34495914228a47112c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  currentHP: 100
+  maxHP: 100
+  bossSprite: {fileID: 4083011691617494499}
+--- !u!114 &7431321131820314260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861066793575371396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffb2fb9badaf2a45b81767b4c83fc75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyBullet: {fileID: 7797589218874574805, guid: 3d812759e3bb19441b4301c615d7b4ae, type: 3}
 --- !u!114 &4173939933971544731
 MonoBehaviour:
   m_ObjectHideFlags: 0
