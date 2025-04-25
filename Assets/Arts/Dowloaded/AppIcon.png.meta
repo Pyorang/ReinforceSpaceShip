@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 895367109a0ecc7478fc5f54dd44ccb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 982360510996237158
+    second: AppIcon_0
+  - first:
+      213: -5105925835036128610
+    second: AppIcon_1
+  - first:
+      213: 7294390134607218863
+    second: AppIcon_2
+  - first:
+      213: 6969938214723218699
+    second: AppIcon_3
+  - first:
+      213: 4900466289931414988
+    second: AppIcon_4
+  - first:
+      213: -6244888155894214564
+    second: AppIcon_5
+  - first:
+      213: 3578878621476928907
+    second: AppIcon_6
+  - first:
+      213: -3103341156104642932
+    second: AppIcon_7
+  - first:
+      213: -6209080199061646523
+    second: AppIcon_8
+  - first:
+      213: -4618084607474112425
+    second: AppIcon_9
+  - first:
+      213: -8251373533297357871
+    second: AppIcon_10
+  - first:
+      213: -221004301977107737
+    second: AppIcon_11
+  - first:
+      213: -2853262353312270104
+    second: AppIcon_12
+  - first:
+      213: 8024057026715130210
+    second: AppIcon_13
+  - first:
+      213: -7656987501460972232
+    second: AppIcon_14
+  - first:
+      213: -8553652628436422948
+    second: AppIcon_15
+  - first:
+      213: -1181283705515788720
+    second: AppIcon_16
+  - first:
+      213: -7217625414279909148
+    second: AppIcon_17
+  - first:
+      213: 6438410686010204351
+    second: AppIcon_18
+  - first:
+      213: -2129173045690969829
+    second: AppIcon_19
+  - first:
+      213: 281254942145498470
+    second: AppIcon_20
+  - first:
+      213: -3532154962477510024
+    second: AppIcon_21
+  - first:
+      213: -7948664855105602994
+    second: AppIcon_22
+  - first:
+      213: -59015219704142803
+    second: AppIcon_23
+  - first:
+      213: 8414740194318262560
+    second: AppIcon_24
+  - first:
+      213: 873988216921762411
+    second: AppIcon_25
+  - first:
+      213: 537936932030941469
+    second: AppIcon_26
+  - first:
+      213: -9079702578788026062
+    second: AppIcon_27
+  - first:
+      213: -3115578578884178065
+    second: AppIcon_28
+  - first:
+      213: 4590805001495194025
+    second: AppIcon_29
+  - first:
+      213: 899869802727705550
+    second: AppIcon_30
+  - first:
+      213: 4352223208892511179
+    second: AppIcon_31
+  - first:
+      213: -1568606461368403605
+    second: AppIcon_32
+  - first:
+      213: 1520245172554633136
+    second: AppIcon_33
+  - first:
+      213: -5182230022515003068
+    second: AppIcon_34
+  - first:
+      213: -1026020628383473680
+    second: AppIcon_35
+  - first:
+      213: 5367282095957395637
+    second: AppIcon_36
+  - first:
+      213: 361567975359751663
+    second: AppIcon_37
+  - first:
+      213: 202122414237485385
+    second: AppIcon_38
+  - first:
+      213: 5725738766979029440
+    second: AppIcon_39
+  - first:
+      213: 994255073834415032
+    second: AppIcon_40
+  - first:
+      213: 2304882343656227038
+    second: AppIcon_41
+  - first:
+      213: -2118928158710452869
+    second: AppIcon_42
+  - first:
+      213: 7950057018336145033
+    second: AppIcon_43
+  - first:
+      213: -5450904713616448253
+    second: AppIcon_44
+  - first:
+      213: 8594489495757768116
+    second: AppIcon_45
+  - first:
+      213: -6742405379518631529
+    second: AppIcon_46
+  - first:
+      213: 7361942507029634568
+    second: AppIcon_47
+  - first:
+      213: 3444089733908811565
+    second: AppIcon_48
+  - first:
+      213: -4204420531244251474
+    second: AppIcon_49
+  - first:
+      213: 8370170842583852064
+    second: AppIcon_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AppIcon_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 920
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b4d431eab02ad00800000000000000
+      internalID: 982360510996237158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 848
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a8e21618b1429b0800000000000000
+      internalID: -5105925835036128610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 928
+        width: 139
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8806a1e21ea3560800000000000000
+      internalID: 7294390134607218863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 811
+        width: 62
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d6ff2c0e13ab060800000000000000
+      internalID: 6969938214723218699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 887
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd632d7024f10440800000000000000
+      internalID: 4900466289931414988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 856
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5091ed1f43b559a0800000000000000
+      internalID: -6244888155894214564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 704
+        width: 146
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d3f5ff42bbaa130800000000000000
+      internalID: 3578878621476928907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 670
+        width: 291
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e588529a7bee4d0800000000000000
+      internalID: -3103341156104642932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 896
+        width: 76
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543d401c47ae4d9a0800000000000000
+      internalID: -6209080199061646523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_9
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 798
+        width: 171
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7586ec4648449efb0800000000000000
+      internalID: -4618084607474112425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_10
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 896
+        width: 83
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db40c63d7b3d7d80800000000000000
+      internalID: -8251373533297357871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 704
+        width: 127
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e242de12c5deecf0800000000000000
+      internalID: -221004301977107737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 800
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8b3d3c10d2768d0800000000000000
+      internalID: -2853262353312270104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 800
+        width: 59
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26915de3a5d2b5f60800000000000000
+      internalID: 8024057026715130210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_14
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 863
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d10d59f6aecb590800000000000000
+      internalID: -7656987501460972232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_15
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 704
+        width: 51
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdee5fde0425b4980800000000000000
+      internalID: -8553652628436422948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_16
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 600
+        width: 105
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05636c18abc3b9fe0800000000000000
+      internalID: -1181283705515788720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 520
+        width: 75
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0b3042de7d5db90800000000000000
+      internalID: -7217625414279909148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 634
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0a7b12864d95950800000000000000
+      internalID: 6438410686010204351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 509
+        width: 99
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11d0425568a372e0800000000000000
+      internalID: -2129173045690969829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 891
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dc7e531e737e300800000000000000
+      internalID: 281254942145498470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 683
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87215e996c34bfec0800000000000000
+      internalID: -3532154962477510024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 664
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a7cc89d6ba0b190800000000000000
+      internalID: -7948664855105602994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 663
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24613968f55e2ff0800000000000000
+      internalID: -59015219704142803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_24
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 720
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021aa8f9f9927c470800000000000000
+      internalID: 8414740194318262560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_25
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 704
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aaf7717a7012c00800000000000000
+      internalID: 873988216921762411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_26
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 663
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1984412ac2277700800000000000000
+      internalID: 537936932030941469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_27
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 296
+        width: 115
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23934256c9a6ef180800000000000000
+      internalID: -9079702578788026062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_28
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 644
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fcacf1acd33c4d0800000000000000
+      internalID: -3115578578884178065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_29
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 584
+        width: 84
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9253363d0d5bf30800000000000000
+      internalID: 4590805001495194025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 527
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb8faf51dafc7c00800000000000000
+      internalID: 899869802727705550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 363
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3bf3d03f3366c30800000000000000
+      internalID: 4352223208892511179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_32
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 443
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69f0c5fbb03b3ae0800000000000000
+      internalID: -1568606461368403605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf0f990eeef81510800000000000000
+      internalID: 1520245172554633136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_34
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 358
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441f0ab40450518b0800000000000000
+      internalID: -5182230022515003068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 259
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffdaf0bca7d2c1f0800000000000000
+      internalID: -1026020628383473680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_36
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 144
+        width: 43
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8cad211aa6c7a40800000000000000
+      internalID: 5367282095957395637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 185
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5a97d682c840500800000000000000
+      internalID: 361567975359751663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_38
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 192
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94905cdc3451ec200800000000000000
+      internalID: 202122414237485385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 161
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9d7728219e57f40800000000000000
+      internalID: 5725738766979029440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_40
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 145
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3b70cc8bd4ccd00800000000000000
+      internalID: 994255073834415032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_41
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 145
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed003be97469cff10800000000000000
+      internalID: 2304882343656227038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_42
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 99
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dad73f01e0892e0800000000000000
+      internalID: -2118928158710452869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 79
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ee60aacb6445e60800000000000000
+      internalID: 7950057018336145033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_44
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 81
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305a3680b0f7a54b0800000000000000
+      internalID: -5450904713616448253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_45
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 93
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5c77c29a2c54770800000000000000
+      internalID: 8594489495757768116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_46
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 127
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791fb16b70a2e62a0800000000000000
+      internalID: -6742405379518631529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_47
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 83
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e995474bfda2660800000000000000
+      internalID: 7361942507029634568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_48
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 63
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f443c8d5ddbcf20800000000000000
+      internalID: 3444089733908811565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 47
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6c3d48dc5e6a5c0800000000000000
+      internalID: -4204420531244251474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AppIcon_50
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 55
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024ea85c802d82470800000000000000
+      internalID: 8370170842583852064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AppIcon_0: 982360510996237158
+      AppIcon_1: -5105925835036128610
+      AppIcon_10: -8251373533297357871
+      AppIcon_11: -221004301977107737
+      AppIcon_12: -2853262353312270104
+      AppIcon_13: 8024057026715130210
+      AppIcon_14: -7656987501460972232
+      AppIcon_15: -8553652628436422948
+      AppIcon_16: -1181283705515788720
+      AppIcon_17: -7217625414279909148
+      AppIcon_18: 6438410686010204351
+      AppIcon_19: -2129173045690969829
+      AppIcon_2: 7294390134607218863
+      AppIcon_20: 281254942145498470
+      AppIcon_21: -3532154962477510024
+      AppIcon_22: -7948664855105602994
+      AppIcon_23: -59015219704142803
+      AppIcon_24: 8414740194318262560
+      AppIcon_25: 873988216921762411
+      AppIcon_26: 537936932030941469
+      AppIcon_27: -9079702578788026062
+      AppIcon_28: -3115578578884178065
+      AppIcon_29: 4590805001495194025
+      AppIcon_3: 6969938214723218699
+      AppIcon_30: 899869802727705550
+      AppIcon_31: 4352223208892511179
+      AppIcon_32: -1568606461368403605
+      AppIcon_33: 1520245172554633136
+      AppIcon_34: -5182230022515003068
+      AppIcon_35: -1026020628383473680
+      AppIcon_36: 5367282095957395637
+      AppIcon_37: 361567975359751663
+      AppIcon_38: 202122414237485385
+      AppIcon_39: 5725738766979029440
+      AppIcon_4: 4900466289931414988
+      AppIcon_40: 994255073834415032
+      AppIcon_41: 2304882343656227038
+      AppIcon_42: -2118928158710452869
+      AppIcon_43: 7950057018336145033
+      AppIcon_44: -5450904713616448253
+      AppIcon_45: 8594489495757768116
+      AppIcon_46: -6742405379518631529
+      AppIcon_47: 7361942507029634568
+      AppIcon_48: 3444089733908811565
+      AppIcon_49: -4204420531244251474
+      AppIcon_5: -6244888155894214564
+      AppIcon_50: 8370170842583852064
+      AppIcon_6: 3578878621476928907
+      AppIcon_7: -3103341156104642932
+      AppIcon_8: -6209080199061646523
+      AppIcon_9: -4618084607474112425
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
