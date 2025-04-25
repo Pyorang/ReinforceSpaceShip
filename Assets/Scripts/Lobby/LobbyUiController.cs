@@ -4,13 +4,23 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 
 public class LobbyUiController : MonoBehaviour
 {
+    [Header ("Lobby BackGrounds")]
+    [Space]
     [SerializeField] private GameObject BlackImage;
     [SerializeField] private GameObject LobbyImage;
 
-    public void Init() { }
+    [Header("Lobby UIs")]
+    [Space]
+    [SerializeField] private TextMeshProUGUI chapterText;
+
+    public void Init() 
+    {
+        SetChapterText();
+    }
 
     private void Update()
     {
@@ -48,6 +58,13 @@ public class LobbyUiController : MonoBehaviour
         };
         UIManager.Instance.OpenUI<ConfirmUI>(data);
     }*/
+
+    public void SetChapterText()
+    {
+        var userChapterData = UserDataManager.Instance.GetUserData<UserChapterData>();
+        Debug.Assert(userChapterData != null);
+        chapterText.text = $"{userChapterData.CurrentChapterNum}´Ü°è";
+    }
 
     public void OnClickSettingsButton()
     {

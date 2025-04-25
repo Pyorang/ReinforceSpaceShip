@@ -87,7 +87,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
 
     public void SyncUserSettings()
     {
-        var userSettingsData = UserDataManger.Instance.GetUserData<UserSettingsData>();
+        var userSettingsData = UserDataManager.Instance.GetUserData<UserSettingsData>();
         Debug.Assert(userSettingsData != null);
         if (userSettingsData.IsSoundEnable == false)
         {

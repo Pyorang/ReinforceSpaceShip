@@ -246,17 +246,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4273290511313607148, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c6d86ae5e83606644a97249719bcb836, type: 3}
     - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 250
+      propertyPath: m_Pivot.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 250
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -264,15 +276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 4848326009912891778, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
       propertyPath: m_Name
       value: LobbyUIController
-      objectReference: {fileID: 0}
-    - target: {fileID: 6423704977675957511, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_RenderMode
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7111538292377552973, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
       propertyPath: m_IsActive

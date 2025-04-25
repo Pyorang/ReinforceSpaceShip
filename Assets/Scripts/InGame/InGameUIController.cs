@@ -108,6 +108,10 @@ public class InGameUIController : MonoBehaviour
         bossHP.value = value;
 
         if(value <= 0)
+        {
             bossHP.gameObject.SetActive(false);
+            var uiData = new BaseUIData();
+            UIManager.Instance.OpenUI<WinImageUI>(uiData);
+        }
     }
 }

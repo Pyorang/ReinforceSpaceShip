@@ -20,6 +20,7 @@ public class UserSettingsData : IUserData
         }
         catch (Exception e)
         {
+            Debug.LogException(e);
         }
 
         return result;
@@ -37,6 +38,7 @@ public class UserSettingsData : IUserData
         }
         catch (Exception e)
         {
+            Debug.LogException(e);
         }
 
         return result;

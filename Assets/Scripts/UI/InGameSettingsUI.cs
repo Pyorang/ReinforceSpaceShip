@@ -22,7 +22,7 @@ public class InGameSettingsUI : BaseUI
     {
         base.SetData(data);
 
-        var userSettingsData = UserDataManger.Instance.GetUserData<UserSettingsData>();
+        var userSettingsData = UserDataManager.Instance.GetUserData<UserSettingsData>();
         Debug.Assert(userSettingsData != null);
         SetSoundSetting(userSettingsData.IsSoundEnable);
     }
@@ -31,11 +31,11 @@ public class InGameSettingsUI : BaseUI
     {
         AudioManager.Instance.Play(AudioType.SFX, "ui_button_click");
 
-        var userSettingsData = UserDataManger.Instance.GetUserData<UserSettingsData>();
+        var userSettingsData = UserDataManager.Instance.GetUserData<UserSettingsData>();
         Debug.Assert(userSettingsData != null);
 
         userSettingsData.IsSoundEnable = false;
-        UserDataManger.Instance.SaveUserData();
+        UserDataManager.Instance.SaveUserData();
         AudioManager.Instance.Mute();
         SetSoundSetting(userSettingsData.IsSoundEnable);
 
@@ -45,11 +45,11 @@ public class InGameSettingsUI : BaseUI
     {
         AudioManager.Instance.Play(AudioType.SFX, "ui_button_click");
 
-        var userSettingsData = UserDataManger.Instance.GetUserData<UserSettingsData>();
+        var userSettingsData = UserDataManager.Instance.GetUserData<UserSettingsData>();
         Debug.Assert(userSettingsData != null);
 
         userSettingsData.IsSoundEnable = true;
-        UserDataManger.Instance.SaveUserData();
+        UserDataManager.Instance.SaveUserData();
         AudioManager.Instance.Unmute();
         SetSoundSetting(userSettingsData.IsSoundEnable);
     }

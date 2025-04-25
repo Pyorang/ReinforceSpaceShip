@@ -52,7 +52,11 @@ public class PlayerStatus : MonoBehaviour
             uiChanged?.Invoke(1, life);
 
             if (life <= 0)
+            {
                 Destroy(this.gameObject);
+                var uiData = new BaseUIData();
+                UIManager.Instance.OpenUI<DefeatImageUI>(uiData);
+            }
             else
             {
                 this.transform.position = PlayerSpawnPoint;

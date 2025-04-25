@@ -20,14 +20,14 @@ public class TitleManager : MonoBehaviour
 
     private void Start()
     {
-        if (UserDataManger.Instance.ExistsSavedData)
+        if (UserDataManager.Instance.ExistsSavedData)
         {
-            UserDataManger.Instance.LoadUserData();
+            UserDataManager.Instance.LoadUserData();
         }
         else
         {
-            UserDataManger.Instance.SetDefaultData();
-            UserDataManger.Instance.SaveUserData();
+            UserDataManager.Instance.SetDefaultData();
+            UserDataManager.Instance.SaveUserData();
         }
 
         AudioManager.Instance.SyncUserSettings();

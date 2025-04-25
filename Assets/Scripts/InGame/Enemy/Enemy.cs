@@ -21,6 +21,11 @@ public class Enemy : MonoBehaviour
         originalColor = bossSprite.color;
     }
 
+    public void OnEnable()
+    {
+        AudioManager.Instance.Play(AudioType.BGM, "bossFight");
+    }
+
     private void CheckDestroyed()
     {
         if(currentHP < 0)
