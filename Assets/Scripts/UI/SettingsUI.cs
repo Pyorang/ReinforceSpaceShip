@@ -47,4 +47,9 @@ public class SettingsUI : BaseUI
         _soundOnToggle.SetActive(isEnable);
         _soundOffToggle.SetActive(!isEnable);
     }
+
+    public void OnClickGoOutButton()
+    {
+        Application.Quit();
+    }
 }

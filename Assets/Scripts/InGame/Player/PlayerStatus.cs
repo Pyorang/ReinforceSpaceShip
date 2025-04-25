@@ -119,6 +119,20 @@ public class PlayerStatus : MonoBehaviour
         uiChanged?.Invoke(2, attackDamage);
     }
 
+    public void MultipleAttackDamage(int amount)
+    {
+        attackDamage *= amount;
+        if (attackDamage < 1) attackDamage = 1;
+        uiChanged?.Invoke(2, attackDamage);
+    }
+
+    public void DivideAttackDamage(int amount)
+    {
+        attackDamage /= amount;
+        if (attackDamage < 1) attackDamage = 1;
+        uiChanged?.Invoke(2, attackDamage);
+    }
+
     public void AddBomb(int amount)
     {
         bomb += amount;
@@ -134,64 +148,5 @@ public class PlayerStatus : MonoBehaviour
             uiChanged?.Invoke(3, bomb);
             Instantiate(playerBombPrefab, transform.position + bulletSpawnPointOffSet, Quaternion.identity);
         }
-    }
-
-    //관문 통과용 함수
-    public int AddRandomLife()
-    {
-        int value = UnityEngine.Random.Range(1, 4);
-        AddLife(value);
-        return value;
-    }
-
-    public int MinusRandomLife()
-    {
-        int value = UnityEngine.Random.Range(1, 4);
-        AddLife(-value);
-        return value;
-    }
-
-    public int AddRandomAttackDamage()
-    {
-        int value = UnityEngine.Random.Range(1, 51);
-        AddAttackDamage(value);
-        return value;
-    }
-
-    public int MinusRandomAttackDamage()
-    {
-        int value = UnityEngine.Random.Range(1, 51);
-        AddAttackDamage(-value);
-        return value;
-    }
-
-    public int MultipleRandomAttackDamage()
-    {
-        int multiplier = UnityEngine.Random.Range(1, 5);
-        attackDamage *= multiplier;
-        uiChanged?.Invoke(2, attackDamage);
-        return multiplier;
-    }
-
-    public int DivideRandomAttackDamage()
-    {
-        int divisor = UnityEngine.Random.Range(1, 5);
-        attackDamage = Mathf.Max(1, attackDamage / divisor);
-        uiChanged?.Invoke(2, attackDamage);
-        return divisor;
-    }
-
-    public int AddRandomBomb()
-    {
-        int value = UnityEngine.Random.Range(1, 4);
-        AddBomb(value);
-        return value;
-    }
-
-    public int MinusRandomBomb()
-    {
-        int value = UnityEngine.Random.Range(1, 4);
-        AddBomb(-value);
-        return value;
     }
 }

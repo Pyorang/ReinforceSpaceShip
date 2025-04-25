@@ -16,6 +16,7 @@ public enum SpaceDoorEffect
 
 public class SpaceDoor : MonoBehaviour
 {
+    private int effectAmount = 1;
     [SerializeField] private bool GoodEffect = true;
     [SerializeField] private TextMeshPro effectText;
 
@@ -55,28 +56,36 @@ public class SpaceDoor : MonoBehaviour
         switch (spaceDoorEffect)
         {
             case SpaceDoorEffect.plusLife:
-                effectText.text = $"+? 格见";
+                effectAmount = UnityEngine.Random.Range(1, 4);
+                effectText.text = $"+{effectAmount} 格见";
                 break;
             case SpaceDoorEffect.plusAttackDamage:
-                effectText.text = $"+? 单固瘤";
+                effectAmount = UnityEngine.Random.Range(1, 51);
+                effectText.text = $"+{effectAmount} 单固瘤";
                 break;
             case SpaceDoorEffect.multipleAttackDamage:
-                effectText.text = $"X? 单固瘤";
+                effectAmount = UnityEngine.Random.Range(1, 5);
+                effectText.text = $"X{effectAmount} 单固瘤";
                 break;
             case SpaceDoorEffect.plusBomb:
-                effectText.text = $"+? 气藕";
+                effectAmount = UnityEngine.Random.Range(1, 4);
+                effectText.text = $"+{effectAmount} 气藕";
                 break;
             case SpaceDoorEffect.minusLife:
-                effectText.text = $"-? 格见";
+                effectAmount = UnityEngine.Random.Range(1, 4);
+                effectText.text = $"-{effectAmount} 格见";
                 break;
             case SpaceDoorEffect.minusAttackDamage:
-                effectText.text = $"-? 单固瘤";
+                effectAmount = UnityEngine.Random.Range(1, 51);
+                effectText.text = $"-{effectAmount} 单固瘤";
                 break;
             case SpaceDoorEffect.divideAttackDamage:
-                effectText.text = $"/? 单固瘤";
+                effectAmount = UnityEngine.Random.Range(1, 5);
+                effectText.text = $"/{effectAmount} 单固瘤";
                 break;
             case SpaceDoorEffect.minusBomb:
-                effectText.text = $"-? 气藕";
+                effectAmount = UnityEngine.Random.Range(1, 4);
+                effectText.text = $"-{effectAmount} 气藕";
                 break;
         }
     }
@@ -93,28 +102,28 @@ public class SpaceDoor : MonoBehaviour
         switch (spaceDoorEffect)
         {
             case SpaceDoorEffect.plusLife:
-                stats.AddRandomLife();
+                stats.AddLife(effectAmount);
                 break;
             case SpaceDoorEffect.plusAttackDamage:
-                stats.AddRandomAttackDamage();
+                stats.AddAttackDamage(effectAmount);
                 break;
             case SpaceDoorEffect.multipleAttackDamage:
-                stats.MultipleRandomAttackDamage();
+                stats.MultipleAttackDamage(effectAmount);
                 break;
             case SpaceDoorEffect.plusBomb:
-                stats.AddRandomBomb();
+                stats.AddBomb(effectAmount);
                 break;
             case SpaceDoorEffect.minusLife:
-                stats.MinusRandomLife();
+                stats.AddLife(-effectAmount);
                 break;
             case SpaceDoorEffect.minusAttackDamage:
-                stats.MinusRandomAttackDamage();
+                stats.AddAttackDamage(-effectAmount);
                 break;
             case SpaceDoorEffect.divideAttackDamage:
-                stats.DivideRandomAttackDamage();
+                stats.DivideAttackDamage(effectAmount);
                 break;
             case SpaceDoorEffect.minusBomb:
-                stats.MinusRandomBomb();
+                stats.AddBomb(-effectAmount);
                 break;
         }
     }

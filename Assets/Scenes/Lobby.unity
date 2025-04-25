@@ -246,45 +246,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_Pivot.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_Pivot.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403040848332711439, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4848326009912891778, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
       propertyPath: m_Name
       value: LobbyUIController
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111538292377552973, guid: 671f75057cad3404ab3bd24139a01b50, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

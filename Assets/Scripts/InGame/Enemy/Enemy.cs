@@ -46,6 +46,7 @@ public class Enemy : MonoBehaviour
 
     public void GetDamaged(int amount)
     {
+        AudioManager.Instance.Play(AudioType.SFX, "bossHit");
         currentHP -= amount;
         uiChanged?.Invoke((float)currentHP/maxHP);
         StopCoroutine(Flash_Red());

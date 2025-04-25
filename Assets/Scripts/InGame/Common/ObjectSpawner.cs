@@ -24,7 +24,7 @@ public class ObjectSpawner : MonoBehaviour
     [Header("Pattern Delay")]
     [Space]
     [SerializeField] private float ChangingPatternDelay = 3f;
-    [SerializeField] private float ItemSpawnRate = 0.5f;
+    [SerializeField] private float ItemSpawnRate = 0.2f;
     
     [Header("Item Prefabs")]
     [Space]
