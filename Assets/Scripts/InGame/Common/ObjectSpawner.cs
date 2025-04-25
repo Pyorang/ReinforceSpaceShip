@@ -13,9 +13,9 @@ public enum SpawnItemPattern
 
 public class ObjectSpawner : MonoBehaviour
 {
-    private static readonly float leftOffSetX = -1.1f;
+    private static readonly float leftOffSetX = -0.8f;
     private static readonly float middleOffSetX = 0f;
-    private static readonly float rightOffSetX = 1.1f;
+    private static readonly float rightOffSetX = 0.8f;
 
     private static readonly float spaceDoorLeftOffSetX = -0.65f;
     private static readonly float spaceDoorMiddleOffSetX = 0f;
