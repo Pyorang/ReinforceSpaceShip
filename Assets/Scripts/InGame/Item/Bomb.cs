@@ -12,7 +12,7 @@ public class Bomb : MonoBehaviour ,Item
 
     public void applyItemEffect(PlayerStatus status)
     {
-        status.addBomb(addAmount);
+        status.AddBomb(addAmount);
     }
 
     public void OnTriggerEnter2D(Collider2D other)

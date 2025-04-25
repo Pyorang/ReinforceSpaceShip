@@ -12,7 +12,7 @@ public class Life : MonoBehaviour, Item
 
     public void applyItemEffect(PlayerStatus status)
     {
-        status.addLife(addAmount);
+        status.AddLife(addAmount);
     }
 
     public void OnTriggerEnter2D(Collider2D other)

@@ -22,4 +22,9 @@ public class InGameManager : SingletonBehaviour<InGameManager>
         _inGameUIController.Init();
         AudioManager.Instance.Play(AudioType.BGM, "inGame");
     }
+
+    public void StartBossMode()
+    {
+        _inGameUIController.SetBossAlertText();
+    }
 }

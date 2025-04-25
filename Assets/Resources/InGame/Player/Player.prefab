@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 74659766950572862}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,6 +125,11 @@ MonoBehaviour:
   attackDamage: 1
   attackRate: 1
   bomb: 1
+  playerBulletPrefab: {fileID: 2400126627135621733, guid: 702ab69aa49396345866f271512e7155, type: 3}
+  PlayerSpawnPoint: {x: 0, y: -1.65, z: 0}
+  spaceShip: {fileID: 7868837896504653628}
+  flame: {fileID: 6670740155568261808}
+  lines: {fileID: 8754401581291071868}
 --- !u!114 &6812761476495253409
 MonoBehaviour:
   m_ObjectHideFlags: 0

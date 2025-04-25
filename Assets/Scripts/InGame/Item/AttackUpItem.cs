@@ -13,7 +13,7 @@ public class AttackUpItem : MonoBehaviour, Item
 
     public void applyItemEffect(PlayerStatus status)
     {
-        status.addAttackDamage(addAmount);
+        status.AddAttackDamage(addAmount);
     }
 
     public void OnTriggerEnter2D(Collider2D other)

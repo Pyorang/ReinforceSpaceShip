@@ -6,6 +6,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 using static UnityEngine.Rendering.DebugUI;
+using UnityEngine.UI;
 
 public class InGameUIController : MonoBehaviour
 {
@@ -13,14 +14,21 @@ public class InGameUIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI attackDamageText;
     [SerializeField] private TextMeshProUGUI bombText;
 
+    [Header ("Boss UI Control")]
+    [Space]
+    [SerializeField] private TextMeshProUGUI bossModeText;
+    [SerializeField] private Slider bossHP;
+
     public void Start()
     {
         PlayerStatus.uiChanged += ChangePlayerStatusUI;
+        Enemy.uiChanged += SetBossHPSlider;
     }
 
     private void OnDestroy()
     {
         PlayerStatus.uiChanged -= ChangePlayerStatusUI;
+        Enemy.uiChanged -= SetBossHPSlider;
     }
 
     private void Update()
@@ -85,4 +93,21 @@ public class InGameUIController : MonoBehaviour
         }
     }
 
+    public void SetBossAlertText()
+    {
+        bossModeText.gameObject.SetActive(!bossModeText.IsActive());
+    }
+
+    public void SetBossHPSliderOn()
+    {
+        bossHP.gameObject.SetActive(true);
+    }
+
+    public void SetBossHPSlider(float value)
+    {
+        bossHP.value = value;
+
+        if(value <= 0)
+            bossHP.gameObject.SetActive(false);
+    }
 }
