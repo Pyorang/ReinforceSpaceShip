@@ -109,6 +109,7 @@ MonoBehaviour:
   commonMapData: {fileID: 11400000, guid: ac226c0dcf082ad44acad68b6e404c48, type: 2}
   moveMent2D: {fileID: 6812761476495253409}
   joystick: {fileID: 0}
+  status: {fileID: 4862130568694824441}
 --- !u!114 &4862130568694824441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +127,7 @@ MonoBehaviour:
   attackRate: 1
   bomb: 1
   playerBulletPrefab: {fileID: 2400126627135621733, guid: 702ab69aa49396345866f271512e7155, type: 3}
+  playerBombPrefab: {fileID: 6951986407526320696, guid: 1f3bfbf046fd7634fbd27c3e0e03e6a5, type: 3}
   PlayerSpawnPoint: {x: 0, y: -1.65, z: 0}
   spaceShip: {fileID: 7868837896504653628}
   flame: {fileID: 6670740155568261808}

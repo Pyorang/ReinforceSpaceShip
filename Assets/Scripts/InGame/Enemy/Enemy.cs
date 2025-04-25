@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [Header ("Boss Stats")]
     [Space]
-    [SerializeField] private int currentHP = 100;
+    private int currentHP;
     [SerializeField] private int maxHP = 100;
 
     [Header("Boss Sprite")]
@@ -18,7 +18,19 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        SetBossMaxHP();
+
         originalColor = bossSprite.color;
+    }
+
+    public void SetBossMaxHP()
+    {
+        int currentChapterNum = UserDataManager.Instance.GetUserData<UserChapterData>().CurrentChapterNum;
+        string filePath = "StageData/Stage" + currentChapterNum;
+        StageData stageData = Resources.Load<StageData>(filePath);
+        maxHP = stageData.GetBossMaxHP();
+
+        currentHP = maxHP;
     }
 
     public void OnEnable()

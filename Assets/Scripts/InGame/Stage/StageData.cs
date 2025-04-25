@@ -17,4 +17,6 @@ public class StageData : ScriptableObject
     {
         return patternNum;
     }
+
+    public int GetBossMaxHP() { return  BossMaxHP; }
 }

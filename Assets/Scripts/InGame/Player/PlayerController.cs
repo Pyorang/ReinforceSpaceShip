@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Movement2D moveMent2D;
     [SerializeField] private Joystick joystick;
 
+    [SerializeField] private PlayerStatus status;
+
     private void Update()
     {
         if (!fightMode)
@@ -27,5 +29,11 @@ public class PlayerController : MonoBehaviour
     {
         fightMode = true;
         joystick.AxisOptions = AxisOptions.Both;
+    }
+
+    public void OnDoubleTap()
+    {
+        if(fightMode)
+            status.UseBomb();
     }
 }

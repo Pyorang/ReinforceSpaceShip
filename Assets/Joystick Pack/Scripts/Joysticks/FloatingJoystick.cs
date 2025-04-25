@@ -23,4 +23,9 @@ public class FloatingJoystick : Joystick
         background.gameObject.SetActive(false);
         base.OnPointerUp(eventData);
     }
+
+    public override void OnDoubleTap()
+    {
+        InGameManager.Instance.DoubleTapControl();
+    }
 }

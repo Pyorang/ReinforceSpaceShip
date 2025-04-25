@@ -5,6 +5,9 @@ using UnityEngine.EventSystems;
 
 public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
+    private float lastTapTime = 0f;
+    private float doubleTapThreshold = 0.3f;
+
     public float Horizontal { get { return (snapX) ? SnapFloat(input.x, AxisOptions.Horizontal) : input.x; } }
     public float Vertical { get { return (snapY) ? SnapFloat(input.y, AxisOptions.Vertical) : input.y; } }
     public Vector2 Direction { get { return new Vector2(Horizontal, Vertical); } }
@@ -59,6 +62,17 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
+        // 터치 시간 비교
+        if (Time.time - lastTapTime < doubleTapThreshold)
+        {
+            OnDoubleTap();
+            lastTapTime = 0f; // 초기화
+        }
+        else
+        {
+            lastTapTime = Time.time;
+        }
+
         OnDrag(eventData);
     }
 
@@ -144,6 +158,11 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
             return localPoint - (background.anchorMax * baseRect.sizeDelta) + pivotOffset;
         }
         return Vector2.zero;
+    }
+
+    public virtual void OnDoubleTap()
+    {
+        Debug.Log("더블탭 감지됨!");
     }
 }
 

@@ -3,6 +3,7 @@ using UnityEngine;
 public class InGameManager : SingletonBehaviour<InGameManager>
 {
     public InGameUIController _inGameUIController { get; private set; }
+    [SerializeField] private PlayerController _playerController;
 
     protected override void Init()
     {
@@ -26,5 +27,10 @@ public class InGameManager : SingletonBehaviour<InGameManager>
     public void StartBossMode()
     {
         _inGameUIController.SetBossAlertText();
+    }
+
+    public void DoubleTapControl()
+    {
+        _playerController.OnDoubleTap();
     }
 }

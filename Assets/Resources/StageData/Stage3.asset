@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce38c735bb74b94194cef7dca90d23b, type: 3}
   m_Name: Stage3
   m_EditorClassIdentifier: 
-  BossMaxHP: 0
-  patternNum: 
+  BossMaxHP: 700
+  patternNum: 010000000100000003000000020000000500000006000000
