@@ -6,6 +6,7 @@ using UnityEngine.Pool;
 public class PlayerBullet : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
+    [SerializeField] private bool isBomb = false;
 
     private IObjectPool<PlayerBullet> playerBulletPool;
 
@@ -19,7 +20,8 @@ public class PlayerBullet : MonoBehaviour
 
     public void DestroyBullet()
     {
-        playerBulletPool.Release(this);
+        if(!isBomb) playerBulletPool.Release(this);
+        else Destroy(this);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

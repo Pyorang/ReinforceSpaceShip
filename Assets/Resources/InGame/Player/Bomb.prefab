@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 100
+  isBomb: 1
 --- !u!1 &6951986407526320696
 GameObject:
   m_ObjectHideFlags: 0
