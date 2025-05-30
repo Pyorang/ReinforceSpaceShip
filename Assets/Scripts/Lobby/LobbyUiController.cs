@@ -25,6 +25,8 @@ public class LobbyUiController : MonoBehaviour
 
     public void Init() 
     {
+        BlackImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -Screen.height);
+        BlackImage.GetComponent<RectTransform>().sizeDelta = new Vector2(Screen.width, Screen.height);
         SetChapter();
     }
 
@@ -130,15 +132,21 @@ public class LobbyUiController : MonoBehaviour
         StartCoroutine(LobbyImageAnimation());
     }
 
+    //고쳐야 하는 부분
     IEnumerator LobbyImageAnimation()
     {
         AudioManager.Instance.Play(AudioType.SFX, "ui_button_click");
-        BlackImage.GetComponent<RectTransform>().DOAnchorPosY(0f, 1f);
-        yield return new WaitForSeconds(2f);
 
-        LobbyImage.SetActive(false);
+        RectTransform rect = BlackImage.GetComponent<RectTransform>();
 
-        BlackImage.GetComponent<RectTransform>().DOAnchorPosY(1920f, 1f);
-        yield return null;
+        // 1. posY를 0으로 자연스럽게 이동
+        yield return rect.DOAnchorPosY(0f, 1f).WaitForCompletion();
+
+        yield return new WaitForSeconds(1f); // 잠깐 대기
+
+        LobbyImage.SetActive(false); // LobbyImage 끄기
+
+        // 2. posY를 Screen.height로 자연스럽게 이동
+        yield return rect.DOAnchorPosY(Screen.height, 1f).WaitForCompletion();
     }
 }

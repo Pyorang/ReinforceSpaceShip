@@ -1,11 +1,8 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
-using static UnityEngine.Rendering.DebugUI;
 using UnityEngine.UI;
 
 public class InGameUIController : MonoBehaviour

@@ -2,10 +2,12 @@ using UnityEngine;
 using System;
 using Unity.VisualScripting;
 using System.Collections;
+using UnityEngine.Pool;
 
 public class PlayerStatus : MonoBehaviour
 {
     private bool isInvincible = false;
+    private IObjectPool<PlayerBullet> playerBulletPool;
 
     [Header("Stats")]
     [Space]
@@ -30,6 +32,11 @@ public class PlayerStatus : MonoBehaviour
 
     public static event Action<int, int> uiChanged;
 
+    private void Awake()
+    {
+        playerBulletPool = new ObjectPool<PlayerBullet>(CreateBullet, OnGetBullet, OnReleaseBullet, OnDestroyBullet, maxSize: 30);
+    }
+
     public void FightBoss()
     {
         StartCoroutine(Attack());
@@ -39,8 +46,10 @@ public class PlayerStatus : MonoBehaviour
     {
         while (true)
         {
-            GameObject bullet = Instantiate(playerBulletPrefab, transform.position + bulletSpawnPointOffSet, Quaternion.identity);
-            bullet.GetComponent<PlayerBullet>().SetDamage(attackDamage);
+            var bullet = playerBulletPool.Get();
+            bullet.transform.position = transform.position + bulletSpawnPointOffSet;
+            bullet.transform.rotation = Quaternion.identity;
+            bullet.SetDamage(attackDamage);
             yield return new WaitForSeconds(attackRate);
         }
     }
@@ -148,5 +157,27 @@ public class PlayerStatus : MonoBehaviour
             uiChanged?.Invoke(3, bomb);
             Instantiate(playerBombPrefab, transform.position + bulletSpawnPointOffSet, Quaternion.identity);
         }
+    }
+
+    private PlayerBullet CreateBullet()
+    {
+        PlayerBullet bullet = Instantiate(playerBulletPrefab).GetComponent<PlayerBullet>();
+        bullet.SetManagePool(playerBulletPool);
+        return bullet;
+    }
+
+    private void OnGetBullet(PlayerBullet playerBullet)
+    {
+        playerBullet.gameObject.SetActive(true);
+    }
+
+    private void OnReleaseBullet(PlayerBullet playerBullet)
+    {
+        playerBullet.gameObject.SetActive(false);
+    }
+
+    private void OnDestroyBullet(PlayerBullet playerBullet)
+    {
+        Destroy(playerBullet.gameObject);
     }
 }
