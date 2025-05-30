@@ -19,7 +19,8 @@
 
 #### 이승빈
 - 기획
-https://docs.google.com/document/d/12gfp9mG2JRM7pXwFE3L6mF7h3pDq0a5tAtPbu1L-mFU/edit?tab=t.1bgs3r2au743
+
+초기 기획서 정보 : https://docs.google.com/document/d/12gfp9mG2JRM7pXwFE3L6mF7h3pDq0a5tAtPbu1L-mFU/edit?tab=t.1bgs3r2au743
 
 - 개발
 
