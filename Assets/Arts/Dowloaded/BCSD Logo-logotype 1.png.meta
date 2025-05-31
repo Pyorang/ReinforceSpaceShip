@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BCSD Logo-logotype 1_0: -7550347220073232678
+      BCSD Logo-logotype 1_1: -6998157960710591027
+      BCSD Logo-logotype 1_2: -2475024810732335753
+      BCSD Logo-logotype 1_3: 1523035759414278967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
